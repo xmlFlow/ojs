@@ -29,9 +29,6 @@ jobs:
           - php-version: 8.2
             database: pgsql
             test: 'test'
-
-
-
     name: ojs
     steps:
       - uses: xmlFlow/pkp-github-actions@v1
