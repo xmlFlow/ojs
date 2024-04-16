@@ -8,8 +8,6 @@ jobs:
       matrix:
         include:
           - php-version: 8.1
-            validate: 'validate'
-          - php-version: 8.1
             database: pgsql
             test: 'test'
             SAVE_BUILD: 'save_build'
